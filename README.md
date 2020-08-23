@@ -16,5 +16,5 @@ this repository contains AUT algebra course implementations
    Estimating corona virus patients in future using linear regression and least square solution
    
 ## hw05
-   the singular value decomposition (SVD) is a factorization of a real or complex matrix that generalizes the eigendecomposition of a square normal matrix to any          {\displaystyle m\times n}m\times n matrix, here we use it to compress a .PPM photo and plot it a lower resolution 
+   the singular value decomposition (SVD) is a factorization of a real or complex matrix that generalizes the eigendecomposition of a square normal matrix to any          m*n matrix, here we use it to compress a .PPM photo and plot it a lower resolution 
 
