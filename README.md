@@ -11,3 +11,6 @@ this repository contains AUT algebra course implementations
 ## hw03
    show echelon form, base of column space,base of row space and rest of the columns 
    in a combination form of pivot cols
+
+## hw04
+   Estimating corona virus patients in future using linear regression and least square solution
