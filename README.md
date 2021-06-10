@@ -3,11 +3,14 @@
 this repository contains AUT algebra course implementations 
 
 ## Echelon Form
-   An efficient implementation of  Row Echelon and Reduced  Row Echelon form for square matrix and then
-   solve Ax= b when A is n \* n matrix and b is n \* 1 matrix(a vector by n elements).
+   This project gets a square matrix (A) and a vector (b) then: 
+   1. Transforming matrix to Row Echelon form (show results step by step).
+   2. Transforming Row Echelon matrix to reduced Row Echelon form (show results step by step)
+   3. Solving Ax=b equation which A is a n \* n matrix and b is a vector in R<sup>n</sup>
+   
 
-## hw02
-   finding the inverse of a matrix using LU(lower and upper triangular matrix)Factorization     
+## Inveret a matrix by LU decomposition
+        
 
 ## hw03
    show echelon form, basis of column space,basis of row space and rest of the columns 
