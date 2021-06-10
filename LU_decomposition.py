@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def factor(A,l,i,j):
+def LU_decomposition(A,l,i,j):
     n,m = A.shape
     for x in range(i,n):
             if A[x,j] != 0 :
@@ -25,8 +25,6 @@ def forsubs(l,b):
         j=i
         l[i+1:,-1] -= l[i+1,j] * l[i,-1]
         
-
-
     y = l[:,-1]
     y =  y.reshape((n,1))
         
@@ -38,7 +36,6 @@ def backsubs(u,y):
         
     for i in range(n-1,-1,-1):
         j=i
-        print(i)
         u[i,-1] /=u[i,j] 
         if i != 0:
             u[:i,-1] -= (u[:i,j] * u[i,-1])
@@ -51,25 +48,26 @@ def backsubs(u,y):
 
     
 n=int(input("Enter the matrix size : "))
-print()
+
 
 A=np.zeros((n,n))
 l = np.zeros((n,n))
 
+print("\n enter the matrix: \n")
 for i in range(n):
    A[i] =input().split(" ")
 
 
 
 for t in range(0,n):
-     A,l = factor(A,l,t,t)
-print(" matrix U : ")     
+     A,l = LU_decomposition(A,l,t,t)
+print(" matrix U: ")     
 print(A)
 print()
 print("".center(20,"*"))
 
 print()
-print(" matrix L : ")     
+print(" matrix L: ")     
 print(l)
 print()
 print("".center(20,"*"))
@@ -84,5 +82,5 @@ for i in range(0,n):
     e[i]=0
 
 print("".center(20,"*"))
-print("reverse matrix is  : ")
+print("reverse matrix: ")
 print(reverseA)
