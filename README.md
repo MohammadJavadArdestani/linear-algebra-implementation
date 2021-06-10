@@ -10,8 +10,13 @@ this repository contains AUT algebra course implementations
    
 
 ## Inveret a matrix by LU decomposition
-        
-
+   In this project  LU decomposition is used to calculated inverted matrix in efficient way. It contains:
+   1. forward-substitution function for calculating L matrix
+   2. backward-substitution fucntion for calculating U matrix
+   3. LU decomposition function which speed up our calculation to solve Ax=b eauation 
+   <a/>
+   solve AX = I by LU decomposition to find Inverted matrix.
+   
 ## hw03
    show echelon form, basis of column space,basis of row space and rest of the columns 
    in a combination form of pivot columns
