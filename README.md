@@ -2,14 +2,14 @@
 
 this repository contains AUT algebra course implementations 
 
-## Echelon Form
+## P1: Echelon Form
    This project gets a square matrix (A) and a vector (b) then: 
    1. Transforming matrix to Row Echelon form (show results step by step).
    2. Transforming Row Echelon matrix to reduced Row Echelon form (show results step by step)
    3. Solving Ax=b equation which A is a n \* n matrix and b is a vector in R<sup>n</sup>
    
 
-## Inveret a matrix by LU decomposition
+## P2: Inveret a matrix by LU decomposition
    In this project  LU decomposition is used to calculated inverted matrix in efficient way. It contains:
    1. forward-substitution function for calculating L matrix
    2. backward-substitution fucntion for calculating U matrix
@@ -17,9 +17,8 @@ this repository contains AUT algebra course implementations
    <a/>
    solve AX = I by LU decomposition to find Inverted matrix.
    
-## hw03
-   show echelon form, basis of column space,basis of row space and rest of the columns 
-   in a combination form of pivot columns
+## P3: Vector space
+   By giving  matrix-size and matrix you can get row, column and Null space basis.
 
 ## hw04
    Estimating corona virus patients in future using linear regression and least square solution download total_cases.csv from here 
