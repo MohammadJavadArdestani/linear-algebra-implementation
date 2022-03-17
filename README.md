@@ -1,6 +1,6 @@
 # algebra implementation
 
-this repository contains AUT algebra course implementations 
+This repository contains AUT algebra course implementations 
 
 ## P1: Echelon Form
    This project gets a square matrix (A) and a vector (b) then: 
@@ -10,20 +10,21 @@ this repository contains AUT algebra course implementations
    
 
 ## P2: Inveret a matrix by LU decomposition
-   In this project  LU decomposition is used to calculated inverted matrix in efficient way. It contains:
+   In this project, LU decomposition is used to calculate the inverted matrix efficiently. It contains:
    1. forward-substitution function for calculating L matrix
-   2. backward-substitution fucntion for calculating U matrix
-   3. LU decomposition function which speed up our calculation to solve Ax=b eauation 
+   2. backward-substitution function for calculating U matrix
+   3. LU decomposition function, which speeds up our calculation to solve Ax=b equation 
    <a/>
-   solve AX = I by LU decomposition to find Inverted matrix.
+   solve AX = I by LU decomposition to find the Inverted matrix.
    
 ## P3: Vector space
-   By giving  matrix-size and matrix you can get row, column and Null space basis.
-
-## hw04
-   Estimating corona virus patients in future using linear regression and least square solution download total_cases.csv from here 
-   https://github.com/owid/covid-19-data/tree/master/public/data/ecdc
+   This project takes a matrix as input and extracts the row, column, and Nullspace basis of the matrix using reduced Echelon form.
    
-## hw05
-   the singular value decomposition (SVD) is a factorization of a real or complex matrix that generalizes the eigen decomposition of a square normal matrix to any          m*n matrix, here we use it to compress a .PPM photo and plot it a lower resolution 
+
+## P4: Linear Regression
+  This project predict COVID-19-infected number by Linear regression and curve fitting. you can download the total_cases.csv  file from [here.](https://github.com/owid/covid-19-data/tree/master/public/data/ecdc) 
+   
+   
+## P5: Image compresseion 
+   The singular value decomposition (SVD) is a factorization of a real or complex matrix that generalizes the eigen decomposition of a normal square matrix to any          m*n matrix. Here we use it to compress a .PPM photo and plot it a lower resolution 
 
