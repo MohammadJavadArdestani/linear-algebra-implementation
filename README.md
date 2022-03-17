@@ -1,6 +1,6 @@
 # algebra implementation
 
-This repository contains AUT algebra course implementations 
+Linear algebra algorithms with efficient implementations, available for different types of problems. 
 
 ## P1: Echelon Form
    This project gets a square matrix (A) and a vector (b) then: 
